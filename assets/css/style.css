@@ -16,6 +16,7 @@ header {
     background-color: #39a6b2;
 }
 
+/* applies style to 'Run Buddy' */
 header h1 {
     font-weight: bold;
     font-size: 36px;    
@@ -24,32 +25,38 @@ header h1 {
     display: inline;
 }
 
+/* applies style to all <a> within <header> */
 header a {
     text-decoration: none;
     color: #fce138;
 }
 
+/* instructs the browser to position the <nav> to the right with the appropriate margin amount */
 header nav {
     float: right;
     margin: 7px 0;
 }
 
+/* instructs the browser to change the block format to inline for the listed items */
 header nav ul li {
     display: inline;
 }
 
+/* instructs the anchors within the <li> to behave within the stated parameters */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
 
+/* instructs the footer to apply the specified style */
 footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
 
+/* <h2> element within the footer will now be inline with the specified style */
 footer h2 {
     display: inline;
     color: #024e76;
@@ -57,12 +64,14 @@ footer h2 {
     margin: 0;
 }
 
+/* instructs all the children of the <div> element to position themselves to the right with */
 footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
 }
 
+/* instructs the anchor within the footer to appear as the specified color */
 footer a {
     color: #024e76;
 }
