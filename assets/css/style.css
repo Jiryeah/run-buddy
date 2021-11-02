@@ -39,15 +39,19 @@ header nav {
 }
 
 /* instructs the browser to change the block format to inline for the listed items */
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 /* instructs the anchors within the <li> to behave within the stated parameters */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 /* instructs the footer to apply the specified style */
