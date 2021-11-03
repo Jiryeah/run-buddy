@@ -59,11 +59,13 @@ footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* <h2> element within the footer will now be inline with the specified style */
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
@@ -71,7 +73,6 @@ footer h2 {
 
 /* instructs all the children of the <div> element to position themselves to the right with */
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
@@ -106,8 +107,27 @@ section {
     position: absolute;
     bottom: 120px;
     right: 140px;
+    width: 40%;
+    margin: 3.5%;
   }   
 /* Form Style End */ 
+
+/* Hero Cta Style Start */
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+}
+/* Hero Cta Style End */
 
 /* Hero-Form h3 Styling */
 .hero-form h3 {
